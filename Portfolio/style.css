@@ -199,3 +199,44 @@ body {
     border:1px solid aqua;
     cursor: pointer;
 }
+.fifth{
+    height: 70vh;
+    width: 85%;
+    margin:44px 87px;  
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.inputBox>input{
+    padding: 4px;
+    width:60%;
+    height: 40px;
+    outline:2px solid aqua;
+    border: none;
+    border-radius: 7px;
+}   
+textarea{
+    width: 60%;
+    height: 100px;
+    border-radius: 7px;
+    outline:2px solid aqua;
+    border: none;
+    padding: 4px;
+}
+.btn > button{
+    padding: 7px 10px;
+    background-color:#8982b8;
+    color: black;
+    border: none;
+    border: 1px solid aqua;
+    font-weight: 600;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    gap: 2px;
+}
+.btn > button:hover{
+    background-color: rgb(219, 195, 241);
+}
